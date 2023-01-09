@@ -1,0 +1,29 @@
+.container{
+    border: solid tomato;
+    
+    padding: 1.45rem 0;
+    margin: auto;
+    max-width: 1240px;
+}
+.sousContainer{
+    border: solid teal;
+
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    border: solid violet;
+
+}
+.list{
+    border: solid yellow;
+    list-style: none;
+
+    display: flex;
+
+}
+.item1{
+    border: solid rgb(0, 255, 0);
+    
+}
+    

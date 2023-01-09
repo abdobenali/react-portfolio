@@ -1,0 +1,38 @@
+@media (max-width:921px) {
+    .project-title{
+        text-align: center;
+    }
+    .project-sous-container1{
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+    
+}
+.project-container{
+    background-image: url("./wave\ \(12\).svg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    
+    box-sizing: border-box;
+    
+    padding: 1% 0; 
+}
+.project-sous-container{
+    margin: auto;
+    max-width: 1240px;
+
+    box-sizing: border-box;  
+}
+.project-title{
+    color: #242335;
+    
+    margin-bottom: 2%;
+
+    font-weight: bold;
+    line-height: 150%;
+}
+.project-sous-container1{
+    display: flex;
+}

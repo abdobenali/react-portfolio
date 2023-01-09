@@ -1,0 +1,46 @@
+.project-card-container{
+    text-decoration: none;
+    color: black;
+
+    background-color: rgb(236, 241, 245);
+
+    box-shadow: 20px 20px 50px 15px rgb(192, 186, 186);
+
+    width: 250px;
+    height: 150px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    border-radius: 25px;
+
+    margin-right: 0.80em;
+    margin-bottom: 1.45em;
+
+    padding: 1.45em;
+} 
+.project-card-container:hover{
+    cursor: pointer;
+    box-shadow: 20px 20px 50px 15px rgb(171, 141, 255);
+}
+.project-statistics{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.language{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.project-stargazers_count{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.project-forks_count{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
